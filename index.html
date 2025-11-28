@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yuk Kenalan dengan Looping!</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Materi looping ramah anak: video, praktek Scratch, dan mini game interaktif." />
+</head>
+<body>
+  <header class="site-header" role="banner" aria-label="Header">
+    <div class="brand">
+      <span class="logo" aria-hidden="true">🔁</span>
+      <h1>Yuk Kenalan dengan Looping!</h1>
+    </div>
+    <nav class="top-nav" aria-label="Navigasi utama">
+      <button class="nav-btn" id="prevBtn" aria-label="Slide sebelumnya">⟵ Sebelumnya</button>
+      <button class="nav-btn" id="nextBtn" aria-label="Slide berikutnya">Berikutnya ⟶</button>
+    </nav>
+  </header>
+
+  <main id="slides" role="main">
+    <!-- Slide 1: Judul -->
+    <section class="slide current" data-slide="1" aria-label="Slide 1: Judul">
+      <div class="content">
+        <h2>Halo Programmer Cilik! 👋</h2>
+        <p>Yuk belajar cara komputer mengulang perintah dengan cepat dan seru: <strong>Looping</strong>!</p>
+        <div class="hero-illustration" aria-hidden="true">
+          <div class="robot">🤖</div>
+          <div class="computer">💻</div>
+          <div class="stars">✨✨✨</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 2: Ice Breaking -->
+    <section class="slide" data-slide="2" aria-label="Slide 2: Ice breaking">
+      <div class="content">
+        <h2>Ice Breaking: Tebak-Tebakan 🎲</h2>
+        <ul class="big-list">
+          <li>Robot menyapu berulang-ulang</li>
+          <li>Menulis kalimat “Aku suka kucing” 10 kali</li>
+          <li>Mesin mencetak angka 1 sampai 10</li>
+        </ul>
+        <p><strong>Pertanyaan:</strong> Apa kesamaan semuanya?</p>
+        <p><strong>Jawaban:</strong> Mereka melakukan hal yang sama berulang! Itu namanya <em>looping</em>.</p>
+      </div>
+    </section>
+
+    <!-- Slide 3: Apa itu Looping -->
+    <section class="slide" data-slide="3" aria-label="Slide 3: Apa itu looping">
+      <div class="content">
+        <h2>Apa Itu Looping? 💡</h2>
+        <p><strong>Looping</strong> adalah cara menyuruh komputer mengulang perintah sampai selesai.</p>
+        <p>Contoh: Cetak angka 1 sampai 10 tanpa menulis 10 baris!</p>
+        <div class="code-card" role="group" aria-label="Contoh konsep looping">
+<pre aria-label="Contoh pseudo-code looping">
+ulang dari 1 sampai 10:
+  tampilkan angka
+</pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 4: Video -->
+    <section class="slide" data-slide="4" aria-label="Slide 4: Tonton video">
+      <div class="content">
+        <h2>Yuk Tonton Videonya 🎥</h2>
+        <p>Tonton penjelasan looping agar makin paham.</p>
+        <a class="cta" href="https://youtu.be/iaAdWmAu0TE?si=pbp7BkGTW5Thp4ff" target="_blank" rel="noopener">
+          Buka Video di YouTube
+        </a>
+        <div class="thumb" aria-hidden="true">📺</div>
+      </div>
+    </section>
+
+    <!-- Slide 5: Praktek Scratch -->
+    <section class="slide" data-slide="5" aria-label="Slide 5: Praktek Scratch">
+      <div class="content">
+        <h2>Ayo Praktek di Scratch 🧪</h2>
+        <p>Klik bendera hijau. Coba ubah angka atau kata, lalu lihat hasilnya!</p>
+        <a class="cta" href="https://scratch.mit.edu/projects/1248874222/" target="_blank" rel="noopener">
+          Buka Proyek Scratch
+        </a>
+        <div class="scratch-cat" aria-hidden="true">🐱</div>
+      </div>
+    </section>
+
+    <!-- Slide 6: Kenapa penting -->
+    <section class="slide" data-slide="6" aria-label="Slide 6: Kenapa looping penting">
+      <div class="content">
+        <h2>Kenapa Looping Penting? 🧠</h2>
+        <ul class="big-list">
+          <li>Membuat kerja komputer cepat dan hemat waktu</li>
+          <li>Dipakai di game, animasi, dan robot</li>
+          <li>Mempermudah kode: lebih rapi dan mudah diubah</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Slide 7: Mini game gerak -->
+    <section class="slide" data-slide="7" aria-label="Slide 7: Mini game gerak">
+      <div class="content">
+        <h2>Mini Game: Looping Gerak 🎮</h2>
+        <p>Ikuti perintah di bawah. Lakukan dengan cepat, tapi aman!</p>
+        <ul class="big-list">
+          <li>Tepuk tangan 5 kali</li>
+          <li>Lompat kecil 3 kali</li>
+          <li>Putar badan 2 kali</li>
+        </ul>
+        <p><small>Tips: Hitung bersama teman seperti komputer mengulang perintah!</small></p>
+      </div>
+    </section>
+
+    <!-- Slide 8: Penutup -->
+    <section class="slide" data-slide="8" aria-label="Slide 8: Penutup">
+      <div class="content">
+        <h2>Hebat! Kamu Paham Looping 🎉</h2>
+        <p>Terus belajar coding—kamu bisa jadi programmer hebat!</p>
+        <div class="end-illustration" aria-hidden="true">🌟🤖💻</div>
+      </div>
+    </section>
+
+    <!-- Slide 9: Kuis Looping Kelinci -->
+<section class="slide" data-slide="9" aria-label="Slide 9: Kuis Looping Kelinci">
+  <div class="content">
+    <h2>🐇 Kuis Looping: Kelinci Cari Wortel 🥕</h2>
+    <form id="quizForm">
+      <!-- Soal 1 -->
+      <div class="question">
+        <h3>1. Jika kelinci harus melompat 5 kali ke depan, loop apa yang tepat?</h3>
+        <label><input type="radio" name="q1" value="A"> Ulangi lompat 5 kali</label>
+        <label><input type="radio" name="q1" value="B"> Lompat sekali saja</label>
+        <div class="feedback" id="f1"></div>
+      </div>
+
+      <!-- Soal 2 -->
+      <div class="question">
+        <h3>2. Kelinci ingin bergerak ke kanan 3 langkah. Looping yang benar?</h3>
+        <label><input type="radio" name="q2" value="A"> Ulangi langkah kanan 3 kali</label>
+        <label><input type="radio" name="q2" value="B"> Langkah kanan 1 kali</label>
+        <div class="feedback" id="f2"></div>
+      </div>
+
+      <!-- Soal 3 -->
+      <div class="question">
+        <h3>3. Untuk mencari wortel, kelinci harus menggali 4 kali. Apa perintah loopingnya?</h3>
+        <label><input type="radio" name="q3" value="A"> Ulangi gali 4 kali</label>
+        <label><input type="radio" name="q3" value="B"> Gali sekali</label>
+        <div class="feedback" id="f3"></div>
+      </div>
+
+      <!-- Soal 4 -->
+      <div class="question">
+        <h3>4. Kelinci ingin melompat ke kiri 2 kali. Looping yang sesuai?</h3>
+        <label><input type="radio" name="q4" value="A"> Ulangi lompat kiri 2 kali</label>
+        <label><input type="radio" name="q4" value="B"> Lompat kiri 1 kali</label>
+        <div class="feedback" id="f4"></div>
+      </div>
+
+      <!-- Soal 5 -->
+      <div class="question">
+        <h3>5. Kelinci harus berputar 3 kali sebelum makan wortel. Looping yang benar?</h3>
+        <label><input type="radio" name="q5" value="A"> Ulangi putar 3 kali</label>
+        <label><input type="radio" name="q5" value="B"> Putar sekali</label>
+        <div class="feedback" id="f5"></div>
+      </div>
+
+      <div style="text-align:center;">
+        <button type="button" onclick="checkAnswers()">Selesai Kuis</button>
+      </div>
+    </form>
+    <div id="result"></div>
+  </div>
+</section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="progress" aria-live="polite" aria-label="Indikator slide">
+      Slide <span id="slideNum">1</span> dari <span id="slideTotal">8</span>
+    </div>
+  </footer>
+
+  <script>
+    // Navigasi sederhana antar "slide"
+    const slides = Array.from(document.querySelectorAll('.slide'));
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const slideNum = document.getElementById('slideNum');
+    const slideTotal = document.getElementById('slideTotal');
+
+    let index = 0;
+    slideTotal.textContent = slides.length;
+
+    function showSlide(i) {
+      slides.forEach((s, idx) => s.classList.toggle('current', idx === i));
+      slideNum.textContent = i + 1;
+      prevBtn.disabled = i === 0;
+      nextBtn.disabled = i === slides.length - 1;
+    }
+
+    prevBtn.addEventListener('click', () => {
+      if (index > 0) { index--; showSlide(index); }
+    });
+
+    nextBtn.addEventListener('click', () => {
+      if (index < slides.length - 1) { index++; showSlide(index); }
+    });
+
+    // Keyboard: panah kiri/kanan
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft') prevBtn.click();
+      if (e.key === 'ArrowRight') nextBtn.click();
+    });
+  </script>
+
+  <script>
+  function checkAnswers() {
+    let score = 0;
+    const answers = { q1:"A", q2:"A", q3:"A", q4:"A", q5:"A" };
+
+    for (let i=1; i<=5; i++) {
+      const q = document.querySelector(`input[name="q${i}"]:checked`);
+      const feedback = document.getElementById(`f${i}`);
+      if (q) {
+        if (q.value === answers[`q${i}`]) {
+          feedback.textContent = "✅ Benar!";
+          feedback.className = "feedback correct";
+          score += 20;
+        } else {
+          feedback.textContent = "❌ Salah!";
+          feedback.className = "feedback wrong";
+        }
+      } else {
+        feedback.textContent = "❌ Belum dijawab!";
+        feedback.className = "feedback wrong";
+      }
+    }
+    document.getElementById("result").textContent = "Skor Akhir: " + score + " / 100";
+  }
+</script>
+</body>
+</html>
